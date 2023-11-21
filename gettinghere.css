@@ -1,0 +1,213 @@
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #333;
+    padding: 0 100px;
+    box-sizing: border-box;
+    transition: .5s;
+    z-index: 3;
+  }
+  
+  nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    line-height: 80px;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #333;
+    margin-right: 20px;
+  }
+  nav ul li a:hover{
+    
+    transition: .10s;
+    background-color: goldenrod;
+  }
+  /* nav ul li a.active {
+    background-color: goldenrod;
+    color: white;
+  } */
+  nav .logo {
+    height: 80px; /* Adjust as needed */
+    margin-right: 10px;
+  }
+  body {
+    padding-top: 80px;
+  }
+  .dropdown{
+    display: none;
+    position: absolute;
+    background-color: #333;
+  }
+  .please:hover .dropdown{
+    display: block;
+  }
+  .intro{
+    position: relative;
+    text-align: center;
+    padding-left: 550px;
+    padding-right: 550px;
+  }
+  .para{
+    text-align: center;
+    font-size: 400%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .para1{
+    font-size: 140%;
+    color: 	rgb(93, 93, 93);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.air{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 60px;
+}
+.airimage{
+    width: 60%;
+}
+.imageair{
+    width: 100%;
+    height: 85%;
+}
+.airtext{
+    text-align: center;
+    width: 40%;
+    padding-right: 50px;
+}
+.airpara1{
+    color:rgb(66, 66, 66);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.airpara2{
+    font-size: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: 	rgb(93, 93, 93);
+    padding-right: 20px;
+}
+.airtext button{
+    background-color: goldenrod;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: .3s;
+    border-color: white;
+    font-size: 1em;
+}
+.airtext button:hover{
+    background-color: white;
+}
+.land{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 60px;
+}
+.landimage{
+    width: 60%;
+}
+.imageland{
+    width: 100%;
+    height: 100%;
+}
+.landtext{
+    text-align: center;
+    width: 40%;
+    padding-left: 50px;
+}
+.landpara1{
+    color:rgb(66, 66, 66);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.landpara2{
+    font-size: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: 	rgb(93, 93, 93);
+    padding-right: 20px;
+}
+.landtext button{
+    background-color: goldenrod;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: .3s;
+    border-color: white;
+    font-size: 1em;
+}
+.landtext button:hover{
+    background-color: white;
+}
+.sea{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 60px;
+}
+.seaimage{
+    width: 60%;
+    height: 80%;
+}
+.imagesea{
+    width: 100%;
+    height: 85%;
+}
+.seatext{
+    text-align: center;
+    width: 40%;
+    padding-right: 50px;
+}
+.seapara1{
+    color:rgb(66, 66, 66);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.seapara2{
+    font-size: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: 	rgb(93, 93, 93);
+    padding-right: 20px;
+}
+.seatext button{
+    background-color: goldenrod;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: .3s;
+    border-color: white;
+    font-size: 1em;
+}
+.seatext button:hover{
+    background-color: white;
+}

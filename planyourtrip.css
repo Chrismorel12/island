@@ -1,0 +1,351 @@
+  body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #333;
+    padding: 0 100px;
+    box-sizing: border-box;
+    transition: .5s;
+    z-index: 3;
+  }
+  
+  nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    line-height: 80px;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #333;
+    margin-right: 20px;
+  }
+  nav ul li a:hover{
+    
+    transition: .10s;
+    background-color: goldenrod;
+  }
+  /* nav ul li a.active {
+    background-color: goldenrod;
+    color: white;
+  } */
+  nav .logo {
+    height: 80px; /* Adjust as needed */
+    margin-right: 10px;
+  }
+  body {
+    padding-top: 80px;
+  }
+  .dropdown{
+    display: none;
+    position: absolute;
+    background-color: #333;
+  }
+  .please:hover .dropdown{
+    display: block;
+  }
+  .intro{
+    position: relative;
+    text-align: center;
+    padding-left: 550px;
+    padding-right: 550px;
+  }
+  .para{
+    font-size: 400%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  .para1{
+    font-size: 140%;
+    color: 	rgb(93, 93, 93);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .fishing{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 60px;
+    
+  }
+  .fishdivimage{
+    width: 60%;
+  }
+  .imagefish{
+    width: 100%;
+    height: 80%
+  }
+  .fishdivtext{
+    text-align: center;
+    width: 40%;
+    margin-left: 20px;
+  }
+  .fishpara1{
+    color:rgb(78, 78, 78);
+  }
+  .fishpara2{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .fishpara3{
+    font-size: 20px;
+    line-height: 25px;
+    color: 	rgb(93, 93, 93)
+  }
+  .fishdivtext button{
+    background-color: goldenrod;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: .3s;
+    border-color: white;
+    font-size: 1em;
+    
+  }
+  .fishdivtext button:hover{
+    background-color: white;
+  }
+  .diving{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+  }
+  .divingimage{
+    width: 60%;
+  }
+  .imagediving{
+    width: 100%;
+    
+  }
+  .divingtext{
+    text-align: center;
+    width: 40%;
+    padding-right: 20px;
+  }
+  .divingpara1{
+    color:rgb(78, 78, 78);
+    font-size: 20px;
+  }
+  .divingpara2{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .divingpara3{
+    font-size: 20px;
+    line-height: 25px;
+    color: 	rgb(93, 93, 93);
+    padding-right: 20px;
+  }
+    .divingtext button{
+        background-color: goldenrod;
+        margin-top: 20px;
+        padding: 10px 20px;
+        border-radius: 30px;
+        transition: .3s;
+        border-color: white;
+        font-size: 1em;
+    }
+    .divingtext button:hover{
+        background-color: white;
+    }
+    .ecotourism{
+        display: flex;
+        padding: 20px;
+        margin: 20px;
+        margin-top: 140px;
+    }
+    .ecotourismimage{
+        width: 60%;
+    }
+    .imageeco{
+        width: 100%;
+    }
+    .ecotourismtext{
+        text-align: center;
+        width: 40%;
+        padding-left: 20px;
+    }
+    .ecotourismpara1{
+        color:rgb(78, 78, 78);
+        font-size: 20px;
+    }
+    .ecotourismpara2{
+        font-weight: bold;
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .ecotourismpara3{
+        font-size: 20px;
+        line-height: 25px;
+        color: 	rgb(93, 93, 93);
+        padding-left: 20px;
+    }
+    .ecotourismtext button{
+        background-color: goldenrod;
+        margin-top: 20px;
+        padding: 10px 20px;
+        border-radius: 30px;
+        transition: .3s;
+        border-color: white;
+        font-size: 1em;
+    }
+    .ecotourismtext button:hover{
+        background-color: white;
+    }
+    .wedding{
+        display: flex;
+        padding: 20px;
+        margin: 20px;
+        margin-top: 140px;
+    }
+    .weddingimage{
+        width: 60%;
+    }
+    .imagewedding{
+        width: 100%;
+        height: 85%;
+    }
+    .weddingtext{
+        text-align: center;
+        width: 40%;
+        padding-right: 20px;
+    }
+    .weddingpara1{
+        color:rgb(78, 78, 78);
+        font-size: 20px;
+    }
+    .weddingpara2{
+        font-weight: bold;
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .weddingpara3{
+        font-size: 20px;
+        line-height: 25px;
+        color: 	rgb(93, 93, 93);
+        padding-right: 20px;
+    }
+    .weddingtext button{
+        background-color: goldenrod;
+        margin-top: 20px;
+        padding: 10px 20px;
+        border-radius: 30px;
+        transition: .3s;
+        border-color: white;
+        font-size: 1em;
+    }
+    .weddingtext button:hover{
+        background-color: white;
+    }
+    .dining{
+        display: flex;
+        padding: 20px;
+        margin: 20px;
+        margin-top: 60px;
+    }
+    .diningimage{
+        width: 60%;
+    }
+    .imagedining{
+        width: 100%;
+        height: 85%;
+    }
+    .diningtext{
+        text-align: center;
+        width: 40%;
+        padding-left: 20px;
+    }
+    .diningpara1{
+        color:rgb(78, 78, 78);
+        font-size: 20px;
+    }
+    .diningpara2{
+        font-weight: bold;
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .diningpara3{
+        font-size: 20px;
+        line-height: 25px;
+        color: 	rgb(93, 93, 93);
+        padding-left: 20px;
+    }
+    .diningtext button{
+        background-color: goldenrod;
+        margin-top: 20px;
+        padding: 10px 20px;
+        border-radius: 30px;
+        transition: .3s;
+        border-color: white;
+        font-size: 1em;
+    }
+    .diningtext button:hover{
+        background-color: white;
+    }
+    .shopping{
+        display: flex;
+        padding: 20px;
+        margin: 20px;
+        margin-top: 60px;
+    }
+    .shoppingimage{
+        width: 60%;
+    }
+    .imageshopping{
+        width: 100%;
+        height: 85%;
+    }
+    .shoppingtext{
+        text-align: center;
+        width: 40%;
+        padding-right: 20px;
+    }
+    .shoppingpara1{
+        color:rgb(78, 78, 78);
+        font-size: 20px;
+    }
+    .shoppingpara2{
+        font-weight: bold;
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .shoppingpara3{
+        font-size: 20px;
+        line-height: 25px;
+        color: 	rgb(93, 93, 93);
+        padding-right: 20px;
+    }
+    .shoppingtext button{
+        background-color: goldenrod;
+        margin-top: 20px;
+        padding: 10px 20px;
+        border-radius: 30px;
+        transition: .3s;
+        border-color: white;
+        font-size: 1em;
+    }
+    .shoppingtext button:hover{
+        background-color: white;
+    }
+    

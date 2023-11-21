@@ -1,0 +1,151 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #333;
+    padding: 0 100px;
+    box-sizing: border-box;
+    transition: .5s;
+    z-index: 3;
+  }
+  
+  nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    line-height: 80px;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #333;
+    margin-right: 20px;
+  }
+  nav ul li a:hover{
+    
+    transition: .10s;
+    background-color: goldenrod;
+  }
+  /* nav ul li a.active {
+    background-color: goldenrod;
+    color: white;
+  } */
+  nav .logo {
+    height: 80px; /* Adjust as needed */
+    margin-right: 10px;
+  }
+
+  body {
+    padding-top: 80px;
+  }
+  .dropdown{
+    display: none;
+    position: absolute;
+    background-color: #333;
+  }
+  .please:hover .dropdown{
+    display: block;
+  }
+  
+  .intro {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+    overflow: hidden;
+  }
+  
+  #myVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .overlay h1 {
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: goldenrod;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    
+  }
+  
+  .overlay button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    background-color: goldenrod;
+    transition: .5s;
+  }
+  .overlay button:hover{
+    background-color: white;
+    
+    }
+    .slideshow-section {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        margin: 20px;
+        
+
+    }
+    .slideshow {
+        width: 70%;
+        
+        
+    }
+    .slideshow-text {
+        width: 30%;
+        text-align: center;
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+    .slideshow-text p {
+      color: grey;
+    }
+    .slideshow-text button{
+      background-color: goldenrod;
+      margin-top: 20px;
+      padding: 10px 20px;
+      border-radius: 30px;
+      transition: .3s;
+      border-color: white;
+      font-size: 1em;
+      
+    }
+    .slideshow-text button:hover{
+      background-color: white;
+    }
+    
